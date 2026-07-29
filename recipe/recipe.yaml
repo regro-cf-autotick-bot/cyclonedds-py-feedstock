@@ -8,6 +8,8 @@ package:
 source:
   - url: https://github.com/eclipse-cyclonedds/cyclonedds-python/archive/refs/tags/${{ version }}.zip
     sha256: 3e809253fa926e8a23a33d6fd696873c43d6c99a5894cc8634ae0696c505ba97
+    patches:
+      - 0000_assert.patch 
 
 build:
   number: 0
